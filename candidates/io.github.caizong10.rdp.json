@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.caizong10.rdp",
+  "publisher": "caizong10",
+  "version": "0.2.7",
+  "source": "https://github.com/caizong10/dbx-plugin-rdp/tree/v0.2.7",
+  "releaseNotes": "解决Windows远程后复制文件和文件夹到本地问题",
+  "permissions": [
+    "host.workbench",
+    "host.events",
+    "host.binary"
+  ],
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/caizong10/dbx-plugin-rdp/releases/download/v0.2.7/io.github.caizong10.rdp-0.2.7-windows-x64.dbxp",
+      "sha256": "bdd2857bc0d89aef4e4e0da2ba1a87ca290dc90e117ba19101e85d5ee3607aad",
+      "size": 3386627
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/caizong10/dbx-plugin-rdp/releases/download/v0.2.7/io.github.caizong10.rdp-0.2.7-linux-x64.dbxp",
+      "sha256": "16d5f5b8552c042dd393520939e8f076344ed3bbe7ab593c0328757940c13d1d",
+      "size": 3405272
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/caizong10/dbx-plugin-rdp/releases/download/v0.2.7/io.github.caizong10.rdp-0.2.7-darwin-x64.dbxp",
+      "sha256": "c1efe00e7d58fe8cf52b89ffe6df8c365d4bb8ecc22706ed11159915f69c9d81",
+      "size": 3276247
+    },
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/caizong10/dbx-plugin-rdp/releases/download/v0.2.7/io.github.caizong10.rdp-0.2.7-darwin-arm64.dbxp",
+      "sha256": "4c413eb24679c87becc4fc60abf38da2e63626fc232f6f602770d37cd7608575",
+      "size": 3057679
+    }
+  ]
+}
