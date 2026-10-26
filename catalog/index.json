@@ -9197,7 +9197,7 @@
       "description": "Open Windows remote desktops inside DBX with a native Rust (IronRDP) sidecar.",
       "publisher": "caizong10",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.4/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.7/icon.svg",
       "tags": [
         "rdp",
         "remote-desktop",
@@ -9208,11 +9208,46 @@
         "host.events",
         "host.binary"
       ],
-      "source": "https://github.com/caizong10/dbx-plugin-rdp/tree/v0.2.4",
+      "source": "https://github.com/caizong10/dbx-plugin-rdp/tree/v0.2.7",
       "homepage": "https://github.com/caizong10/dbx-plugin-rdp",
       "license": "Apache-2.0",
-      "latestVersion": "0.2.4",
+      "latestVersion": "0.2.7",
       "versions": [
+        {
+          "version": "0.2.7",
+          "releasedAt": "2026-10-26T06:44:06.005Z",
+          "releaseNotes": "解决Windows远程后复制文件和文件夹到本地问题",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.7/io.github.caizong10.rdp-0.2.7-darwin-arm64.dbxp",
+              "sha256": "7c121bc977ceda0d2b19316ce1d221bd3667dbeb228b8f9b345a2f139c8b2e6e",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3058418
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.7/io.github.caizong10.rdp-0.2.7-darwin-x64.dbxp",
+              "sha256": "956d52162f6a4ce774d1758335191b565a5aab759719872db3518e8fda2bc912",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3276987
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.7/io.github.caizong10.rdp-0.2.7-linux-x64.dbxp",
+              "sha256": "ee4e036ad51dc282fb867501f42e331cb9945fbe82c742ed39d5dd4dc397ba00",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3406009
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caizong10.rdp/0.2.7/io.github.caizong10.rdp-0.2.7-windows-x64.dbxp",
+              "sha256": "22c87fbca959ca28c8139897cc7de332d8f8ff85a57b13d0c4e136cf8df1b572",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3387371
+            }
+          ]
+        },
         {
           "version": "0.2.4",
           "releasedAt": "2026-10-23T12:51:33.708Z",
